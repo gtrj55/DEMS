@@ -1,0 +1,302 @@
+.textDialog {
+    max-width: 100%;
+    width : 500px;
+    max-height: 100%;
+    height : 370px;
+}
+.e-multi-select-wrapper{
+    width: 100%;
+    border: 1px solid;
+    padding-left: 10px!important;
+    background: #f8f8f8;
+    border-radius: 5px;
+}
+.MuiSlider-root.MuiSlider-colorPrimary{
+    padding-top: 2%;
+}
+
+input[type="checkbox"]:required {
+  display: none;
+}
+input[type="checkbox"]:required:invalid + label::before {
+  content: "\2610";
+  padding-right: 0.2em;
+  font-size: 1.6em;
+  color: red;
+}
+input[type="checkbox"]:required:valid + label::before {
+  content: "\2611";
+  padding-right: 0.2em;
+  font-size: 1.6em;
+  color: green;
+}
+
+.InputExp{
+    background-color: #6f61612b;
+    padding:0% 3%;
+}
+::-webkit-scrollbar {
+    width: 5px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #2A74B3; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
+  .e-multiselect{
+      border-bottom: none!important ;
+  }
+  .addScrollBar{
+    height: 550px!important;
+    overflow: auto!important;
+    margin-top: 2.5%;
+    border-right: 1px solid #eeeeee;
+   }
+  .addScrollBarCard{
+    height: 550px!important;
+    overflow: auto!important;
+    margin-top: 2.5%;
+  }
+  .ui-widget{
+    font-family: none!important;
+    font-size: inherit!important;
+  }
+  
+  .ui-accordion-content-active{
+    padding: .7em 1em!important;
+  }
+  .panel.ui-accordion-content{
+    /* height: 200px!important; */
+      overflow:hidden!important;
+  }
+  .ProfileDivFrame{
+      padding:0px!important;
+  }
+  .headerFilter{
+    border-bottom: 1px solid;
+    padding: 0.3% 1%;
+    box-shadow: 5px 5px #888888;
+    width:100%!important;
+  }
+  .ApplyButtonStyle{
+  background: white;
+  color: #196EAE;
+  border: 1px solid #196EAE;
+  border-radius: 5px;
+  padding: 0px 65px;
+  margin-left: 30%;
+  font-size: 18px;
+  font-family: Montserrat, Regular;
+  }
+  .primaryRFM{
+    background: #196EAE;
+    color: white;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    padding: 0px 3%;
+    font-size: 11px;
+    font-family: Montserrat, Medium;
+    margin-top: -4%;
+    margin-left:auto;
+  }
+  .MuiSlider-root{
+      color:#196eae!important
+  }
+  .SendButtonColor{
+    background: #196EAE;
+    color: white;
+    border: 1px solid #ffffff;
+  }
+  .e-multiselect{
+    width: 100%;
+    border: 1px solid;
+    padding-left: 10px;
+    background: #f8f8f8;
+    border-radius: 7px;
+  }
+.ActiveClassOnCartSelection{
+  border-left: 3px solid #196EAE!important;
+}
+  /* .e-checkbox-wrapper.e-frame.e-check, .e-css.e-checkbox-wrapper.e-frame.e-check{
+    
+  } */
+  .e-float-input.e-control-wrapper.e-input-group.e-float-icon-left .e-input-in-wrap .e-float-line:after, .e-float-input.e-control-wrapper.e-input-group.e-float-icon-left .e-input-in-wrap .e-float-line:before, .e-float-input.e-control-wrapper.e-input-group:not(.e-float-icon-left) .e-float-line:after, .e-float-input.e-control-wrapper.e-input-group:not(.e-float-icon-left) .e-float-line:before, .e-float-input.e-input-group.e-float-icon-left .e-input-in-wrap .e-float-line:after, .e-float-input.e-input-group.e-float-icon-left .e-input-in-wrap .e-float-line:before, .e-float-input.e-input-group:not(.e-float-icon-left) .e-float-line:after, .e-float-input.e-input-group:not(.e-float-icon-left) .e-float-line:before, .e-input-group.e-control-wrapper.e-float-icon-left:not(.e-float-input) .e-input-in-wrap:after, .e-input-group.e-control-wrapper.e-float-icon-left:not(.e-float-input) .e-input-in-wrap:before, .e-input-group.e-control-wrapper:not(.e-float-icon-left):not(.e-float-input):after, .e-input-group.e-control-wrapper:not(.e-float-icon-left):not(.e-float-input):before, .e-input-group.e-float-icon-left:not(.e-float-input) .e-input-in-wrap:after, .e-input-group.e-float-icon-left:not(.e-float-input) .e-input-in-wrap:before, .e-input-group:not(.e-float-icon-left):not(.e-float-input):after, .e-input-group:not(.e-float-icon-left):not(.e-float-input):before{
+    /* background: #196EAE!important; */
+    background: none!important;
+  }
+
+  .e-checkbox-wrapper .e-frame.e-check, .e-css.e-checkbox-wrapper .e-frame.e-check{
+    background: #196EAE!important;
+  }
+  .e-checkbox-wrapper .e-frame, .e-checkbox-wrapper.e-frame.e-check, .e-checkbox-wrapper .e-frame.e-check, .e-css.e-checkbox-wrapper.e-frame, .e-css.e-checkbox-wrapper.e-frame.e-check, .e-css.e-checkbox-wrapper .e-frame.e-check, .e-float-input.e-control-wrapper.e-input-group.e-float-icon-left .e-input-in-wrap .e-float-line:after, .e-float-input.e-control-wrapper.e-input-group.e-float-icon-left .e-input-in-wrap .e-float-line:before, .e-float-input.e-control-wrapper.e-input-group:not(.e-float-icon-left) .e-float-line:after, .e-float-input.e-control-wrapper.e-input-group:not(.e-float-icon-left) .e-float-line:before, .e-float-input.e-input-group.e-float-icon-left .e-input-in-wrap .e-float-line:after, .e-float-input.e-input-group.e-float-icon-left .e-input-in-wrap .e-float-line:before, .e-float-input.e-input-group:not(.e-float-icon-left) .e-float-line:after, .e-float-input.e-input-group:not(.e-float-icon-left) .e-float-line:before, .e-input-group.e-control-wrapper.e-float-icon-left:not(.e-float-input) .e-input-in-wrap:after, .e-input-group.e-control-wrapper.e-float-icon-left:not(.e-float-input) .e-input-in-wrap:before, .e-input-group.e-control-wrapper:not(.e-float-icon-left):not(.e-float-input):after, .e-input-group.e-control-wrapper:not(.e-float-icon-left):not(.e-float-input):before, .e-input-group.e-float-icon-left:not(.e-float-input) .e-input-in-wrap:after, .e-input-group.e-float-icon-left:not(.e-float-input) .e-input-in-wrap:before, .e-input-group:not(.e-float-icon-left):not(.e-float-input):after, .e-input-group:not(.e-float-icon-left):not(.e-float-input):before{
+    background: none;
+  }
+  .cartmtDivInner{
+    display: flex;
+  }
+  .checkboxPositionDelete{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+  }
+  input[type=checkbox]{
+    margin: 0!important;
+  }
+  .checkboxPosition{
+    position: absolute;
+    top: 3px;
+    right: 50px;
+  }
+  .removeOverflow{
+    overflow: hidden;
+  }
+  .sendButtonNotify{
+    font-size: 16px!important;
+    padding: 1% 5%!important;
+  }
+
+ /* DEMS CSS */
+
+ .card-title{
+  color:#206aaa;
+  }
+  .CanvasZone{
+    max-width:100%!important;
+  }
+  .container-fluid{
+      display:flex!important;
+    }
+    
+        /* On site page hide left navigation menu */  
+         
+        #sideNavBox {  
+            display: none;  
+        }  
+        /* adjust position of content on site page */  
+         
+        #contentBox {  
+            margin-left: 20px!important;  
+        }
+        .ms-dialogHidden {
+        display:none!important;
+      }
+      .w-50{
+        width:100%!important;
+        }  
+        .card-header.border-0{
+        background-color:none;
+      
+    }
+        .card-header img{
+      width:75px;
+      border-radius: 50px
+    }
+    .card.flex-row.flex-wrap
+    {
+      background-color: rgba(0,0,0,.03)
+    }
+    .checkboxinput{
+      width: 75px;
+        height: 18px;
+    }
+    #RibbonContainer{
+      display:none!important;
+    }  
+    .IframeClass{
+      width:-webkit-fill-available!important;
+      height:550px!important;
+    }
+    .FloatIcon{
+      float:right
+    }
+    .sendText{
+      color:#5e5a5a!important;
+    }
+    .ms-TextField{
+        height: 40px;
+        padding-bottom: 10px;
+    }
+    .ms-TextField>div>div>input{
+        font-size: 16px;
+    }
+    .e-multiselect{
+      width: 100%;
+      border: 1px solid;
+      padding-left: 10px;
+      background: #f8f8f8;
+      border-radius: 7px;
+    }
+    .ControlZone {
+      margin-top: 0px!important; 
+    }
+    .navbar{
+      margin-bottom:0px!important;
+    }
+    .e-multi-select-wrapper.e-down-icon{
+      padding-top:1%!important;
+      padding-bottom:1%!important;
+    }
+    .e-chips-close{
+      margin-top: -2.8em!important;
+    }
+    #myiFrame{
+      border:none;
+    }
+    .ResourceListH{
+       margin: 0px!important;
+    }
+    .ResourceListHr{
+       margin-top: 0px!important;
+       margin-bottom: 0px!important;
+    }
+    .cardmtDiv{
+      margin-top: 2.5%;
+      border-left: 1px solid #eeeeee;
+    }
+    .singleSearch{
+      margin-left: 7%;
+      margin-right: 7%;
+    }
+    .CardInformation{
+      margin-top:5%;
+    }
+    .CardInformation p{
+      margin-top:5%;
+    }
+    .ApplyButtonStyle:hover{
+    background-color: #196EAE;
+    color: white;
+    border: 1px solid #196EAE;
+    }
+     .primaryRFM:hover{
+    background-color: #196EAE;
+    color: white;
+    border: 1px solid #196EAE;
+    }
+    .SendButtonColor:disabled {
+    background: #dddddd;
+  }
+  .SendButtonColor:hover{
+    background-color: white;
+    color: #196EAE;
+    border: 1px solid #196EAE;
+    }
+    .SPCanvas>div>div>div>div>div{
+      max-width:100%!important;
+    }
+    .ms-Overlay{
+      background-color: rgb(42 40 40 / 40%)!important;
+    }
+    .contrastRatio-overwrite{
+      margin-bottom: 10%!important;
+    }

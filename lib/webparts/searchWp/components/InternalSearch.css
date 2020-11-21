@@ -1,0 +1,105 @@
+.buttonSubmit{
+    width: 192px;
+    height: 40px;
+    background-color: #196EAE;
+    margin-left: 20px;
+}
+.buttonSave{
+  width: 144px;
+  height: 40px;
+  background-color: #196EAE!important;
+  border-radius: 5px;
+  opacity: 1;
+  background: #196EAE 0% 0% no-repeat padding-box;
+}
+.col-md-12{
+    margin-top: 6%;
+    margin-bottom: 3%;
+}
+.accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+  }
+  
+  .active, .accordion:hover {
+    background-color: #ccc;
+  }
+  
+  .panel {
+    padding: 0 18px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+  }
+  .advanceDiv{
+    margin-top: 2%;
+    size: 18px;
+  }
+  .advanceDiv a{
+    color: #196EAE;
+    font-size: 17px;
+    border-bottom: 1px solid;
+    cursor: pointer;
+  }
+  .hide{
+    visibility: hidden;
+  }
+  .AdvanceH{
+    float: left;
+    color: #707070;
+  }
+  .AdvanceHClose{
+    float: right;
+  }
+  .hrclear{
+    clear: both;
+  }
+  .marginButtonDiv{
+    margin-top: 2%!important;
+  }
+  .advanceDiv{
+    margin-left:15%!important;
+  }
+  .searchOnMiddleDiv1{
+    margin-top: 15%!important;
+    margin-left: 15%!important;
+  }
+  .e-multiselect{
+    width: 100%;
+    border: 1px solid!important;
+    padding-left: 10px;
+    background: #f8f8f8!important;
+    border-radius: 6px!important;
+    padding-top:2px;
+  }
+  .mandatory{
+    color:red;
+  }
+  .labelSearchkeyword{
+    display:flex;
+  }
+  .spanSearchkeyword{
+    margin-left:auto;
+    order:2;
+    color:red;
+  }
+  .e-float-input.e-control-wrapper.e-input-group.e-float-icon-left .e-input-in-wrap .e-float-line:after, .e-float-input.e-control-wrapper.e-input-group.e-float-icon-left .e-input-in-wrap .e-float-line:before, .e-float-input.e-control-wrapper.e-input-group:not(.e-float-icon-left) .e-float-line:after, .e-float-input.e-control-wrapper.e-input-group:not(.e-float-icon-left) .e-float-line:before, .e-float-input.e-input-group.e-float-icon-left .e-input-in-wrap .e-float-line:after, .e-float-input.e-input-group.e-float-icon-left .e-input-in-wrap .e-float-line:before, .e-float-input.e-input-group:not(.e-float-icon-left) .e-float-line:after, .e-float-input.e-input-group:not(.e-float-icon-left) .e-float-line:before, .e-input-group.e-control-wrapper.e-float-icon-left:not(.e-float-input) .e-input-in-wrap:after, .e-input-group.e-control-wrapper.e-float-icon-left:not(.e-float-input) .e-input-in-wrap:before, .e-input-group.e-control-wrapper:not(.e-float-icon-left):not(.e-float-input):after, .e-input-group.e-control-wrapper:not(.e-float-icon-left):not(.e-float-input):before, .e-input-group.e-float-icon-left:not(.e-float-input) .e-input-in-wrap:after, .e-input-group.e-float-icon-left:not(.e-float-input) .e-input-in-wrap:before, .e-input-group:not(.e-float-icon-left):not(.e-float-input):after, .e-input-group:not(.e-float-icon-left):not(.e-float-input):before{
+    background: #196EAE!important;
+  }
+
+  .e-checkbox-wrapper .e-frame.e-check, .e-css.e-checkbox-wrapper .e-frame.e-check{
+    background: #196EAE!important;
+  }
+  .e-checkbox-wrapper .e-frame, .e-checkbox-wrapper.e-frame.e-check, .e-checkbox-wrapper .e-frame.e-check, .e-css.e-checkbox-wrapper.e-frame, .e-css.e-checkbox-wrapper.e-frame.e-check, .e-css.e-checkbox-wrapper .e-frame.e-check, .e-float-input.e-control-wrapper.e-input-group.e-float-icon-left .e-input-in-wrap .e-float-line:after, .e-float-input.e-control-wrapper.e-input-group.e-float-icon-left .e-input-in-wrap .e-float-line:before, .e-float-input.e-control-wrapper.e-input-group:not(.e-float-icon-left) .e-float-line:after, .e-float-input.e-control-wrapper.e-input-group:not(.e-float-icon-left) .e-float-line:before, .e-float-input.e-input-group.e-float-icon-left .e-input-in-wrap .e-float-line:after, .e-float-input.e-input-group.e-float-icon-left .e-input-in-wrap .e-float-line:before, .e-float-input.e-input-group:not(.e-float-icon-left) .e-float-line:after, .e-float-input.e-input-group:not(.e-float-icon-left) .e-float-line:before, .e-input-group.e-control-wrapper.e-float-icon-left:not(.e-float-input) .e-input-in-wrap:after, .e-input-group.e-control-wrapper.e-float-icon-left:not(.e-float-input) .e-input-in-wrap:before, .e-input-group.e-control-wrapper:not(.e-float-icon-left):not(.e-float-input):after, .e-input-group.e-control-wrapper:not(.e-float-icon-left):not(.e-float-input):before, .e-input-group.e-float-icon-left:not(.e-float-input) .e-input-in-wrap:after, .e-input-group.e-float-icon-left:not(.e-float-input) .e-input-in-wrap:before, .e-input-group:not(.e-float-icon-left):not(.e-float-input):after, .e-input-group:not(.e-float-icon-left):not(.e-float-input):before{
+    background: none;
+  }
+ 

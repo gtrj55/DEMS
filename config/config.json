@@ -1,0 +1,30 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "dems-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/dems/DemsWebPart.js",
+          "manifest": "./src/webparts/dems/DemsWebPart.manifest.json"
+        }
+      ]
+    },
+    "search-wp-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/searchWp/SearchWpWebPart.js",
+          "manifest": "./src/webparts/searchWp/SearchWpWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {
+    "jquery": "node_modules/jquery/dist/jquery.min.js",
+    "jqueryui": "node_modules/jqueryui/jquery-ui.min.js"
+  },
+  "localizedResources": {
+    "DemsWebPartStrings": "lib/webparts/dems/loc/{locale}.js",
+    "SearchWpWebPartStrings": "lib/webparts/searchWp/loc/{locale}.js"
+  }
+}

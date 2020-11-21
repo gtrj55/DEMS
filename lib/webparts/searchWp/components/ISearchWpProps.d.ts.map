@@ -1,0 +1,1 @@
+{"version":3,"file":"ISearchWpProps.d.ts","sourceRoot":"","sources":["../../../../src/webparts/searchWp/components/ISearchWpProps.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,cAAc,EAAE,MAAM,4BAA4B,CAAC;AAE5D,MAAM,WAAW,cAAc;IAC7B,WAAW,EAAE,MAAM,CAAC;IACpB,OAAO,EAAC,cAAc,CAAC;CACxB"}

@@ -1,0 +1,3 @@
+For multi select dropdown syncfusion properties
+
+https://ej2.syncfusion.com/react/documentation/api/multi-select/#customvalueselection

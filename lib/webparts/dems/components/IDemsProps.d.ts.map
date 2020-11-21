@@ -1,0 +1,1 @@
+{"version":3,"file":"IDemsProps.d.ts","sourceRoot":"","sources":["../../../../src/webparts/dems/components/IDemsProps.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,cAAc,EAAE,MAAM,4BAA4B,CAAC;AAC5D,MAAM,WAAW,UAAU;IACzB,OAAO,EAAC,cAAc,CAAC;IACvB,WAAW,EAAC,MAAM,CAAC;IACnB,aAAa,EAAC,MAAM,CAAC;IACrB,SAAS,EAAC,MAAM,CAAC;IACjB,QAAQ,EAAC,MAAM,CAAC;CACjB"}
